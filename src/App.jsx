@@ -54,7 +54,7 @@ function App() {
 				{tasks.map((task) => (
 					<li 
 						className='list-group-item d-flex justify-content-between align-items-center'
-						key={task.id}>
+						key={task.id}> 
 						{task.text}
 						<button className='btn btn-danger' onClick={() => deleteTask(task.id)}>DELETE</button>
 					</li>
